@@ -19,3 +19,21 @@ body {
     color: black;
     font-size: 70px;
 }
+.boxWrap{
+    width: 100%;
+}
+
+#box{
+    width: 200px;
+    height: 200px;
+    border-radius: 40%;
+    border: 1px solid black;
+    margin: 0 auto;
+    transition: transform ease-in-out 1.2s;
+}
+#box:hover{
+    transform: rotate(720deg);
+}
+
+
+
