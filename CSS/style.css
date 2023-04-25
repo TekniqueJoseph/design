@@ -1,6 +1,28 @@
 *{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-body{
-    background-image: linear-gradient(to right, #5a6c87, #45889f, #3fa3a1, #6cb98f, #b1c979);
+/* body{
+
+} */
+body {
+    margin: 0;
+}
+.heading {
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+}
+.heading h1 {
+    color: indigo;
+    font-size: 70px;
+}
+.heading h3 {
+    color: gold;
+    font-size: 20px;
+}
+#particles-js {
+    /* background: black; */
+        background-image: linear-gradient(to right, #5a6c87, #45889f, #3fa3a1, #6cb98f, #b1c979);
+    height: 100vh;
 }
