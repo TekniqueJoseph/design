@@ -1,11 +1,13 @@
 *{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
-/* body{
-
-} */
 body {
     margin: 0;
+}
+#particles-js {
+    /* background: black; */
+        background-image: linear-gradient(to right, #5a6c87, #45889f, #3fa3a1, #6cb98f, #b1c979);
+    height: 100vh;
 }
 .heading {
     position: absolute;
@@ -16,13 +18,4 @@ body {
 .heading h1 {
     color: indigo;
     font-size: 70px;
-}
-.heading h3 {
-    color: gold;
-    font-size: 20px;
-}
-#particles-js {
-    /* background: black; */
-        background-image: linear-gradient(to right, #5a6c87, #45889f, #3fa3a1, #6cb98f, #b1c979);
-    height: 100vh;
 }
